@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "10"
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
+  - export PATH=$HOME/.yarn/bin:$PATH
+script:
+  - yarn build
+deploy:
+  provider: heroku
+  app: territories-backend
+  skip_cleanup: true
+  api_key:
+    secure: UCrxbDJqyGdnFdRYcuMsohS73WkCeH5Ryoc/wnId2KYJbcMWHPqSeMC2yySh0gra6urb4O9wKtAtbsT5ELjmse6UJ6Rpt45HO/ScQ69H3RvxKLgcWcJTivNVgqYQ2o7251usWzj294KrZXfxM0M1zgJpebuk7R1o4Z69DR0CFqoJUyUU06aDm2wM/iqwEmNPpy32wlcLiFgNsDwYqcJKNXT0FwurjX1yLDa0Z1v1lqRtvy21fHOWpl1i0IbHFiIvpEMuh1N6bAHrWIGyu+DOMRbEtd8S5QyYELqwO2Qa6O9vllL7/q2AlNVH0SVAMbTNgJX2MsLtqZuolquZUe2SDzNIO1iPJ70/vCInOfhB5TdruHCVA0DlBXTzWx7jREejm2TrFPpOXO0xrFfnZtUgYvn/5GL6HxdtOvsZAgekSSF+T9EnJ5HtdRxdLP5xQmiS4JDEJgkwrqIJxHI2Cf6IGSPFEMegj53HZm7XzRJFgoEYFxVnoykXZOZExZqiHr19H2wy6klRzLzHHCFeISMM3I09H+skuTS0Mj1yN1vhx5SNA7ZK/CQX7yxaz/1jZcJtEvbCYygiXPXvHYNJD+CRJfW9tGz1KWhsYBYeoZL8D7Ya//Tsk28rLBXKAUuonsy7GUhWCaJ0UlZr3JkjCdeTTf7M6ZR3rpKVk79SjvMBEfk=

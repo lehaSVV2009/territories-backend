@@ -1,0 +1,32 @@
+{
+  "name": "territories-backend",
+  "version": "0.1.0",
+  "description": "Territories server with websocket and http api for online multiplayer",
+  "main": "build/index.js",
+  "files": [
+    "build/**/*.js"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehaSVV2009/territories-backend.git"
+  },
+  "keywords": [
+    "territories",
+    "backend"
+  ],
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "boardgame.io": "^0.31.1",
+    "react": "^16.7.0",
+    "territories-core": "lehaSVV2009/territories-core#c653847ed4823889e226c5dfcf35a973f716f9b0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
