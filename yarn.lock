@@ -2411,9 +2411,9 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-territories-core@lehaSVV2009/territories-core#c653847ed4823889e226c5dfcf35a973f716f9b0:
+territories-core@lehaSVV2009/territories-core#867031c:
   version "0.1.0"
-  resolved "https://codeload.github.com/lehaSVV2009/territories-core/tar.gz/c653847ed4823889e226c5dfcf35a973f716f9b0"
+  resolved "https://codeload.github.com/lehaSVV2009/territories-core/tar.gz/867031c7201f421c490704a7d7ab6314d81567b3"
   dependencies:
     babel-cli "^6.26.0"
     babel-preset-env "^1.7.0"
