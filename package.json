@@ -22,7 +22,7 @@
   "dependencies": {
     "boardgame.io": "^0.31.1",
     "react": "^16.7.0",
-    "territories-core": "lehaSVV2009/territories-core#867031c"
+    "territories-core": "lehaSVV2009/territories-core#3da353e"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
