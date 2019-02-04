@@ -1,6 +1,6 @@
 import "babel-polyfill";
 import { Server } from "./libs/boardgame.io/server";
-import { Game } from "territories-core";
+import { Game } from "./libs/territories-core";
 
 const port = process.env.PORT || 8000;
 const server = Server({ games: [Game] });
