@@ -722,9 +722,9 @@ blob@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
 
-boardgame.io@^0.31.1:
-  version "0.31.1"
-  resolved "https://registry.yarnpkg.com/boardgame.io/-/boardgame.io-0.31.1.tgz#cc2c44a33eefe67f09fdaf80cd9f6d8a760ea458"
+boardgame.io@^0.31.3:
+  version "0.31.3"
+  resolved "https://registry.yarnpkg.com/boardgame.io/-/boardgame.io-0.31.3.tgz#f4578b0f32e8070f7c95ddf7c256343c8929293b"
   dependencies:
     "@koa/cors" "^2.2.1"
     flatted "^0.2.3"
@@ -2411,9 +2411,9 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-territories-core@lehaSVV2009/territories-core#fa97d37:
+territories-core@lehaSVV2009/territories-core#abdf08d:
   version "1.0.0"
-  resolved "https://codeload.github.com/lehaSVV2009/territories-core/tar.gz/fa97d37484bba824b20a9e50d5361a24d26d2c69"
+  resolved "https://codeload.github.com/lehaSVV2009/territories-core/tar.gz/abdf08d9e8351d9ce5ce418081c443cab1340509"
   dependencies:
     babel-cli "^6.26.0"
     babel-preset-env "^1.7.0"

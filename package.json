@@ -20,9 +20,9 @@
     "start": "node build/index.js"
   },
   "dependencies": {
-    "boardgame.io": "^0.31.1",
+    "boardgame.io": "^0.31.3",
     "react": "^16.7.0",
-    "territories-core": "lehaSVV2009/territories-core#fa97d37"
+    "territories-core": "lehaSVV2009/territories-core#abdf08d"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
