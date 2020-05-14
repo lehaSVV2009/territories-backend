@@ -20,7 +20,7 @@
     "start": "node build/index.js"
   },
   "dependencies": {
-    "boardgame.io": "^0.31.3",
+    "boardgame.io": "0.31.3",
     "react": "^16.7.0",
     "territories-core": "lehaSVV2009/territories-core#abdf08d"
   },
